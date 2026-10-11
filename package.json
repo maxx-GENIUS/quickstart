@@ -16,6 +16,7 @@
   "scripts": {
     "start": "bash scripts/start-local.sh",
     "stop": "docker compose down",
+    "reset": "bash scripts/reset-local.sh",
     "status": "node bin/sorocrew-cli.js status",
     "lint": "node --check bin/sorocrew-cli.js"
   },
